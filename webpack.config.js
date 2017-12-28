@@ -1,5 +1,5 @@
-import * as path from 'path';
-import * as HTMLWebpackPlugin from 'html-webpack-plugin';
+var path = require('path');
+var HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 	entry: './app/index.js',
