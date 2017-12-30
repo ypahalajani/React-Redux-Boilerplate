@@ -9,6 +9,12 @@
   },
   "author": "Yash Pahalajani",
   "license": "ISC",
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
   "dependencies": {
     "css-loader": "^0.28.7",
     "prop-types": "^15.6.0",
